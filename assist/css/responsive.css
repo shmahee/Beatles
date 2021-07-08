@@ -1,0 +1,332 @@
+/* // X-Small devices (portrait phones, less than 576px) */
+@media (min-width: 320px) and (max-width: 575px) {
+
+    /* header part here */
+
+    .head_icon {
+        display: none;
+    }
+
+    .head_text {
+        text-align: center;
+    }
+
+    .navbar-light .navbar-toggler {
+        border: 0px;
+    }
+
+    /* header part end here */
+
+
+
+    /* menu part start here */
+
+    .navbar-nav .nav-item .nav-link.active {
+        margin-top: 20px;
+        color: black;
+    }
+
+    .collapse .navbar-nav .nav-item .nav-link {
+        color: rgb(56, 53, 53);
+        font-size: 16px;
+        font-family: 'Myriad Pro', sans-serif;
+        font-weight: 500;
+        text-align: center;
+        display: block;
+    }
+
+    /* menu part end here */
+
+
+
+
+    /* banner part here */
+
+    .banner_text {
+        text-align: center;
+    }
+
+    .banner_text h1 {
+        font-size: 45px;
+    }
+
+    .banner_text h3 {
+        font-size: 17px;
+    }
+
+    .banner_text p {
+        font-size: 12px;
+        text-align: center;
+    }
+
+    section {
+        height: 570px;
+    }
+
+    section .banner_overlay {
+        padding: 79px 0px;
+    }
+
+    /* banner part end here */
+
+    /* about section here */
+
+    .about_logo.about_us {
+        padding: 0px 0px 80px;
+    }
+
+    .about_img_here img {
+        width: 295px;
+        height: auto;
+    }
+
+    .about_text {
+        margin-top: 20px;
+    }
+
+    /* about section end here */
+
+    /* service start here */
+
+    .servi_col {
+        justify-content: center;
+    }
+
+    .service_bor {
+        right: 140px;
+    }
+
+    /* service end here */
+
+
+    /* protfolio part start here */
+
+
+    .big_img {
+        display: flex;
+        justify-content: center;
+    }
+
+    .small_img {
+        display: flex;
+        justify-content: center;
+    }
+
+    .pro_overflow {
+        display: none;
+    }
+    .img-pro_d:hover{
+        box-shadow:2px 2px 50px rgba(0, 0, 0, 0.432); 
+        transition: all linear 0.3s;
+    }
+    .img-pro:hover{
+        box-shadow:2px 2px 50px rgba(0, 0, 0, 0.432); 
+        transition: all linear 0.3s;
+    }
+
+    /* protfolio part end here */
+
+
+
+    .team {
+        margin-bottom: 30px;
+    }
+
+    /* testimornial part here */
+
+    .piramid {
+        left: 45%;
+        right: 50%;
+    }
+
+    .testi_con {
+        margin-bottom: 40px;
+    }
+
+    /* testimornial part end here */
+
+
+    /* fooer part here */
+
+
+    .footer_logo {
+        text-align: center;
+    }
+
+    .footer_icon {
+        margin-left: 10%;
+    }
+
+    .contact_heading {
+        text-align: center;
+    }
+
+    .iprt_text {
+        text-align: center;
+    }
+
+    .footer_img {
+        padding-left: 15%;
+    }
+
+    .contact_heading {
+        margin-top: 60px;
+        margin-bottom: 40px;
+    }
+
+    .copyright p {
+        font-size: 9px;
+    }
+
+    /* fooer part end here */
+
+}
+
+
+/* // Small devices (landscape phones, less than 768px) */
+@media (min-width: 576px) and (max-width: 767px) {
+    /* header part here */
+
+    .head_icon {
+        display: none;
+    }
+
+    .head_text {
+        text-align: center;
+    }
+
+    .navbar-light .navbar-toggler {
+        border: 0px;
+    }
+
+    /* header part end here */
+
+
+    /* banner part here */
+    section {
+        height: 542px;
+    }
+
+    /* banner part end here */
+
+    /* about part here */
+
+    .about_img_here img {
+        margin-bottom: 30px;
+        margin-left: 10%;
+    }
+
+    /* about part end here */
+
+    /* service part here */
+
+    .servi_col {
+        justify-content: center;
+    }
+
+    .col-md-4.service {
+        margin-top: 40px;
+    }
+
+    /* service part end here */
+
+    /* protfolio start here */
+
+    .big_img {
+        display: flex;
+        justify-content: center;
+    }
+
+    .small_img {
+        display: flex;
+        justify-content: center;
+    }
+
+    /* protfolio end here */
+
+    /* testimornial part here */
+    .piramid {
+        left: 46%;
+    }
+
+    /* testimornial part end  here */
+
+    /* footer part here */
+    .foot_image {
+        display: flex;
+        justify-content: center;
+    }
+
+    .footer{
+        margin-left: 12%;
+    }
+    /* footer part end here */
+
+
+}
+
+/* // Medium devices (tablets, less than 992px) */
+@media (min-width: 768px) and (max-width: 991px) {
+    .piramid {
+        left: 46%;
+    }
+}
+
+/* // Large devices (desktops, less than 1200px) */
+@media (min-width: 992px) and (max-width: 1199px) {
+    .col-md-4.service {
+        width: 300px;
+    }
+    .service_bor{
+        right: 110px;
+    }
+    .letter{
+        font-size: 11px;
+    }
+
+    /* protfolio part here */
+
+    .img-pro_d{
+        width: 216px;
+        height: 320px;
+    }
+    .img-pro{
+        width: 216px;
+        height: 216px;
+    }
+
+    /* protfolio part end here */
+
+    /* testomornial part here */
+
+    .piramid {
+        left: 46%;
+    }
+
+    /* testomornial part end here */
+
+}
+
+/*  */
+/* // X-Large devices (large desktops, less than 1400px) */
+@media (min-width: 1200px) and (max-width: 1399px) {
+    ...
+}
+
+/* // XX-Large devices (larger desktops) */
+@media (min-width: 1400px) {
+
+    /* servise part here */
+
+    .col-md-4.service{
+        width: 420px;
+    }
+    .service_bor{
+        right: 170px;
+    }
+
+    /* servise part end here */
+
+}
+
+/* // No media query since the xxl breakpoint has no upper bound on its width */
